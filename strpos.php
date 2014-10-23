@@ -5,7 +5,7 @@ $str	=	"The quick brown fox jumps over a lazy dog.";
 // The short way!
 $pos	=	strpos($str, 'x');
 if($pos === false)	echo 'The letter x isn\'t found in "$str"';
-else				echo "The first occurrence of an 'x' in \"$str\" is at $pos.";
+else				echo "The first occurrence of an 'x' in \"$str\" is at $pos.<br>";
 
 // The long way!
 $len	=	strlen($str);
